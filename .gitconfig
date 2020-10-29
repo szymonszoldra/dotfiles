@@ -1,0 +1,10 @@
+[user]
+	name = szymonszoldra
+	email = szymon.szoldra@gmail.com
+	signingkey = 
+[core]
+	editor = nano
+[commit]
+	gpgSign = true
+[gpg]
+	program = gpg2
