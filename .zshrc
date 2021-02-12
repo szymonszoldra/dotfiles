@@ -115,13 +115,18 @@ function acp() {
   git push
 }
 
+function createvenv() {
+  virtualenv -p python3 venv
+  source venv/bin/activate
+}
+
 #yay and pacman aliases
 alias install="yay -S"
 alias updateall="yay -Syu"
 alias uninstall="pacman -Rns"
 
 #Python aliases
-alias pipreq="pip install -r requirements"
+alias pipreq="pip install -r requirements.txt"
 alias pyvenv="source venv/bin/activate"
 
 

@@ -4,6 +4,8 @@
 	signingkey = 
 [core]
 	editor = nano
+[init]
+	defaultBranch = main
 [commit]
 	gpgSign = true
 [gpg]
