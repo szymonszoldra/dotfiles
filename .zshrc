@@ -129,6 +129,8 @@ alias uninstall="pacman -Rns"
 alias pipreq="pip install -r requirements.txt"
 alias pyvenv="source venv/bin/activate"
 
+#Conda
+alias navigator="conda activate; anaconda-navigator"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
